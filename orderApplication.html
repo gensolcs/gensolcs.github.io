@@ -32,11 +32,14 @@
         </div>
         <div class="small-12 columns">
             
-                <form action="mailto:gensolcs@gmail.com?subject=Custom App" method="post" enctype="text/plain">
-                 <input type="email" name="_replyto" placeholder="Your email">
-                 <textarea name="body" placeholder="Description of your application..."></textarea>
-                 <input type="submit" value="Submit">
-                </form>
+                <form action="https://getsimpleform.com/messages?form_api_token=fa48ebaa60d57b801d211c2af81e0244" method="post">
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+            <input type='hidden' name='redirect_to' value='<http://fooey.com/thank-you.html>' />
+            <!-- all your input fields here.... -->
+            <input type='text' name='name' placeholder="//Please enter your email address"> />
+            <textarea name="body" placeholder="//Description of your application"></textarea>
+            <input type='submit' value='Submit' />
+            </form>
             
         </div>
         <!--div class="small-12 columns text-center"><br>
